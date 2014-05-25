@@ -1,10 +1,11 @@
-package org.softwarefair.lombok;
+package org.softwarfair.lombok;
 
 import lombok.ToString;
 import lombok.Value;
 import lombok.experimental.Builder;
 
 import java.awt.*;
+import java.util.List;
 
 @Value
 @Builder
@@ -14,7 +15,7 @@ public class Vehicle {
     enum Type {
         CAR, BUS, BIKE;
     }
-    private int numberOfWheels;
+    List<Wheel> wheels;
     private int year;
     private Color color;
     private Type type;

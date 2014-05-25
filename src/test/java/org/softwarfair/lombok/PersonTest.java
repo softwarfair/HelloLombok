@@ -1,5 +1,6 @@
-package org.softwarefair.lombok;
+package org.softwarfair.lombok;
 
+import org.softwarfair.lombok.Person;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

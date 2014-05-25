@@ -1,4 +1,4 @@
-package org.softwarefair.lombok;
+package org.softwarfair.lombok;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
