@@ -1,4 +1,6 @@
 target/
+!target/generated-sources/delombok/**/*.java
+!target/generated-test-sources/delombok/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.next
